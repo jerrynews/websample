@@ -29,7 +29,7 @@ function thefun(){
         obj2.innerHTML = ("You are welcome!");
         var obj3 = document.getElementById("div2");
         obj3.style.display = "none";
-        aname.style.display = "none";    
+        aname = "";    
     }
 
     function thefuncn() {
