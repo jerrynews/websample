@@ -15,7 +15,7 @@ function thefun(){
         }
     }
     var userName;
-    userName = prompt("What is your name");
+    userName = prompt("What is your name?");
     var usersName = ("You are welcome! "+userName+".");
         alert("Welcome! "+userName+".")
     console.log("Nice to meet you " +userName);
