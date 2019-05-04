@@ -1,0 +1,32 @@
+td {
+    width: 100px;
+    height: 100px;
+
+}
+table {
+    margin: auto;
+}
+.vertical {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+
+}
+.horizontal {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+#tex {
+    text-align: center;
+}
+
+button/*.obv,button#buton*/ {
+    border: none;
+    background-color: #4acde3;
+    padding: 10px;
+    border-radius: 8px;
+}
+#div1,#div2 {
+    display: none;
+}
