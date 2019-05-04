@@ -18,7 +18,7 @@ function thefun(){
     userName = prompt("What is your name?");
     var usersName = ("You are welcome! "+userName+".");
     alert("Welcome! "+userName+".")
-    var aname = console.log("Nice to meet you " +userName);
+    console.log("Nice to meet you " +userName);
 
     function thefuncy() {
         document.getElementById("buton").innerHTML = "User Name";
@@ -29,7 +29,7 @@ function thefun(){
         obj2.innerHTML = ("You are welcome!");
         var obj3 = document.getElementById("div2");
         obj3.style.display = "none";
-        aname = "";    
+            
     }
 
     function thefuncn() {
