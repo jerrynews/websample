@@ -18,7 +18,7 @@ function thefun(){
     userName = prompt("What is your name?");
     var usersName = ("You are welcome! "+userName+".");
     alert("Welcome! "+userName+".")
-    va aname = console.log("Nice to meet you " +userName);
+    var aname = console.log("Nice to meet you " +userName);
 
     function thefuncy() {
         document.getElementById("buton").innerHTML = "User Name";
