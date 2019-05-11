@@ -1,4 +1,4 @@
-﻿
+
 body {
 	background-color: #f4f4f4;
 	color: #555;
@@ -38,7 +38,7 @@ body {
     float: right;
   }
 #navbar li{
-	display:inline;
+	display:inline-block ;
 }
 
 #navbar a{
@@ -63,6 +63,7 @@ body {
 #showcase{
 	background-image: url('image.jpg');
 	background-position:center right;
+	background-size: cover;
 	min-height:300px;
 	margin-bottom:30px;
 	text-align:center;
@@ -101,9 +102,40 @@ body {
 	margin-top: 40px;
 }
 
-@media(max-width: 600px){
-	#main{
-		width:100%;
-		float:none;
+@media(max-width: 281px){
+	#navbar li{
+		display: block;
 	}
+	#navbar ul {
+		float: left;
+	}
+}
+@media(max-width: 500px){
+	#main{
+		padding: 0 0;
+			
+	}
+
+ 	body{
+		font-size: 10px;
+		line-height: normal;
+	 }
+	
+	#navbar a{
+		font-size: 10px;
+		padding-right: 5px
+	}
+	#navbar li{
+		width: 40px; 
+	}
+	
+	  #showcase h1{
+		font-size:25px;
+		line-height:1em;
+		padding-top:20px;
+	}
+	#sidebar{
+		padding: 0px;
+
+	}	
 }
